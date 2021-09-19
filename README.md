@@ -14,7 +14,7 @@ name: value
 
 #### Sections 
 
-Properties MUST be grouped into arbitrarily named _sections_. The section name appears on a line by itself, in square brackets (`[` and `]`). All properties after the section declaration are associated with that section. There is no explicit "end of section" delimiter; sections end at the next section declaration or at the end of the file. Sections cannot be nested.
+Properties MUST be grouped into arbitrarily named _sections_. The section name appears on a line by itself, in square brackets (`[` and `]`). All properties after the section declaration are associated with that section. There is no explicit "end of section" delimiter; sections end at the next section declaration or at the end of the file. Sections CANNOT be nested.
 
 Properties may, but need not, have a whitespace or tab indentation.
 
@@ -26,7 +26,15 @@ Properties may, but need not, have a whitespace or tab indentation.
 
 #### Case sensitivity
 
-Section and property names are not case sensitive.
+Section and property names ARE NOT case sensitive.
+
+#### Comments
+
+Number sign (`#`) at the beginning of the line indicate a comment. Comment lines are ignored.
+
+#### Duplicate names
+
+Duplicate names of sections or properties within one section ARE NOT allowed.
 
 ### License
 
