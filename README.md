@@ -32,6 +32,17 @@ Section and property names ARE NOT case sensitive.
 
 Number sign (`#`) at the beginning of the line indicate a comment. Comment lines are ignored.
 
+```
+# Main section
+[section]
+
+  # Property 1
+  a: 1
+  
+  # Property 2
+  b: 2
+```
+
 #### Duplicate names
 
 Duplicate names of sections or properties within one section ARE NOT allowed.
