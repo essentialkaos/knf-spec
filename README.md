@@ -24,6 +24,10 @@ Properties may, but need not, have a whitespace or tab indentation.
   b: 2
 ```
 
+#### Case sensitivity
+
+Section and property names are not case sensitive.
+
 ### License
 
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
