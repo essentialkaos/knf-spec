@@ -11,10 +11,17 @@ The essential element contained in a KNF file is _property_. Every property has 
 ```
 name: value
 ```
-Double or single quotes can surround string values. These strings MUST be removed in the process of parsing and MUST NOT be a part of the value.
+
+#### Sections 
+
+Properties MUST be grouped into arbitrarily named _sections_. The section name appears on a line by itself, in square brackets (`[` and `]`). All properties after the section declaration are associated with that section. There is no explicit "end of section" delimiter; sections end at the next section declaration or at the end of the file. Sections cannot be nested.
+
+Properties may, but need not, have a whitespace or tab indentation.
 
 ```
-name: "Text value"
+[section]
+  a: 1
+  b: 2
 ```
 
 ### License
