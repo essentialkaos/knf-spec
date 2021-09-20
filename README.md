@@ -53,6 +53,10 @@ All previously defined properties can be reused as a value or as a part of the v
   dir: /var/log/{mail:domain}
 ```
 
+#### Whitespace
+
+Leading and trailing whitespace around the outside of the property name ARE ignored.
+
 #### Case sensitivity
 
 Section and property names ARE NOT case sensitive.
