@@ -8,6 +8,8 @@ This document specifies `knf` file format also known as _KNF configuration file_
 
 The essential element contained in a KNF file is _property_. Every property has a name and a value, delimited by a colon sign (`:`). The name appears to the left of the colon sign.
 
+The name CAN contain only characters `a-zA-Z0-9_-`. The value can contain any character.
+
 ```
 name: value
 ```
@@ -15,6 +17,8 @@ name: value
 #### Sections 
 
 Properties MUST be grouped into arbitrarily named _sections_. The section name appears on a line by itself, in square brackets (`[` and `]`). All properties after the section declaration are associated with that section. There is no explicit "end of section" delimiter; sections end at the next section declaration or at the end of the file. Sections CANNOT be nested.
+
+Section name CAN contain only characters `a-zA-Z0-9_-`.
 
 Properties may, but need not, have a whitespace or tab indentation.
 
