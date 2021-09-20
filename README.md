@@ -32,6 +32,8 @@ Properties may, but need not, have a whitespace or tab indentation.
 
 Number sign (`#`) at the beginning of the line indicate a comment. Comment lines are ignored.
 
+Inline comments ARE NOT allowed.
+
 ```
 # Main section
 [section]
