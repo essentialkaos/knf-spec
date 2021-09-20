@@ -51,7 +51,6 @@ All previously defined properties can be reused as a value or as a part of the v
 
 [log]
   dir: /var/log/{mail:domain}
-
 ```
 
 #### Case sensitivity
