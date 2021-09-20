@@ -24,10 +24,6 @@ Properties may, but need not, have a whitespace or tab indentation.
   b: 2
 ```
 
-#### Case sensitivity
-
-Section and property names ARE NOT case sensitive.
-
 #### Comments
 
 Number sign (`#`) at the beginning of the line indicate a comment. Comment lines are ignored.
@@ -42,6 +38,25 @@ Number sign (`#`) at the beginning of the line indicate a comment. Comment lines
   # Property 2
   b: 2
 ```
+
+#### Properties reusage
+
+All previously defined properties can be reused as a value or as a part of the value. Properties must be defined in curly brackets (`{` and `}`) with section and property names delimited by a colon sign (`:`).
+
+```
+[mail]
+  domain: service.mail
+  user: john
+  address: {mail:user}@{mail:domain}
+
+[log]
+  dir: /var/log/{mail:domain}
+
+```
+
+#### Case sensitivity
+
+Section and property names ARE NOT case sensitive.
 
 #### Duplicate names
 
