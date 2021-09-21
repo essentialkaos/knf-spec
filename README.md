@@ -71,6 +71,12 @@ Section and property names ARE NOT case sensitive.
 
 Duplicate names of sections or properties within one section ARE NOT allowed.
 
+### Implementations
+
+| Language | License | Repository |
+|----------|---------|------------|
+| Go       | Apache-2.0 | [essentialkaos/ek/knf](https://github.com/essentialkaos/ek/tree/master/knf) |
+
 ### License
 
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
