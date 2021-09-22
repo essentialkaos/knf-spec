@@ -1,4 +1,6 @@
-## KNF File Format Specification
+<p align="center"><a href="#readme"><img src="https://gh.kaos.st/knf-spec.svg"/></a></p>
+
+<br/>
 
 This document specifies `knf` file format also known as _KNF configuration file_.
 
@@ -75,7 +77,8 @@ Duplicate names of sections or properties within one section ARE NOT allowed.
 
 | Language | License | Repository |
 |----------|---------|------------|
-| Go       | Apache-2.0 | [essentialkaos/ek/knf](https://github.com/essentialkaos/ek/tree/master/knf) |
+| Go       | Apache-2.0 | [essentialkaos/ek](https://kaos.sh/ek) |
+| Bash     | Apache-2.0 | [essentialkaos/knf-bash](https://kaos.sh/knf-bash) |
 
 ### License
 
